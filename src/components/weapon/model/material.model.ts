@@ -1,5 +1,5 @@
 export class MaterialModel {
   name: string;
-  monster?: any;
+  source?: any;
   count: number;
 }

@@ -2,6 +2,7 @@ import {ChildrenLoadingFunction, FoldingType, RenamableNode, TreeModel, TreeMode
 import {TreeStatus} from "ng2-tree/src/tree.types";
 import {SlotModel} from "./slot.model";
 import {MaterialModel} from "./material.model";
+import {ElementModel} from "./element.model";
 
 export class WeaponModel implements TreeModel {
   value: string | RenamableNode;
@@ -18,5 +19,5 @@ export class WeaponModel implements TreeModel {
   coating?: any;
   rare: number;
   affinity?: any;
-  element?: any;
+  element?: ElementModel;
 }
