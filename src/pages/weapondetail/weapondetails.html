@@ -14,14 +14,6 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-9>
-        <ion-card>
-          <ion-card-content>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-    </ion-row>
-    <ion-row>
       <ion-col col-3>
         <ion-card>
           <ion-card-header>
@@ -37,16 +29,8 @@
           <ion-card-header>
             Slots
           </ion-card-header>
-          <ion-card-content>
-          </ion-card-content>
-        </ion-card>
-      </ion-col>
-      <ion-col col-3>
-        <ion-card>
-          <ion-card-header>
-            Coatings
-          </ion-card-header>
-          <ion-card-content>
+          <ion-card-content *ngIf="weapon.slots">
+            {{weapon.slots.slot1}} / {{weapon.slots.slot2}} / {{weapon.slots.slot3}}
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -57,6 +41,36 @@
           </ion-card-header>
           <ion-card-content>
             {{weapon.rare}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-4 *ngIf="weapon.affinity">
+        <ion-card>
+          <ion-card-header>
+            Affinity
+          </ion-card-header>
+          <ion-card-content>
+            {{weapon.attack}}
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col-4 *ngIf="weapon.element">
+        <ion-card>
+          <ion-card-header>
+            Element
+          </ion-card-header>
+          <ion-card-content>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col col-4 *ngIf="weapon.coating">
+        <ion-card>
+          <ion-card-header>
+            Coatings
+          </ion-card-header>
+          <ion-card-content>
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -77,6 +91,11 @@
             Material
           </ion-card-header>
           <ion-card-content>
+              <ion-list no-lines>
+                <label *ngFor="let mat of weapon.materials">
+                  {{ mat.name }} x{{mat.count}}
+                </label>
+              </ion-list>
           </ion-card-content>
         </ion-card>
       </ion-col>

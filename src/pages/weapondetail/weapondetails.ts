@@ -12,13 +12,12 @@ export class WeapondetailsPage {
 
   constructor(private navParams: NavParams) {
      this.weapon = navParams.get('weapon');
-     console.log(this.weapon);
+     for (const mat of this.weapon.materials) {
+       console.log(mat.name);
+     }
   }
 
   ngOnInit() {
-  }
-
-  generateData() {
   }
 
 }
