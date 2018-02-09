@@ -83,6 +83,12 @@
             Build Path
           </ion-card-header>
           <ion-card-content>
+            <ion-list no-lines>
+              <p *ngFor="let weapon of buildPathWeapons">
+                <span>{{weapon.value}}</span>
+                <ion-icon name="arrow-down"></ion-icon>
+              </p>
+            </ion-list>
           </ion-card-content>
         </ion-card>
       </ion-col>

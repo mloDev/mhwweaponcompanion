@@ -40,6 +40,9 @@
   {
     "id": 3,
     "value": "Iron Bow III",
+    "materials": [],
+    "attack": 120,
+    "rare": 2,
     "parent": 2,
     "childrenIds": [4]
   },

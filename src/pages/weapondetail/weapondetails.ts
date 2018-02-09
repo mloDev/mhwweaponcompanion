@@ -3,6 +3,7 @@ import {NavController, NavParams} from 'ionic-angular';
 import {WeaponModel} from "../../components/weapon/model/weapon.model";
 import {HttpClient} from "@angular/common/http";
 import {MaterialModel} from "../../components/weapon/model/material.model";
+import {WeapontreeUtils} from "../../components/weapon/weapontree/weapontreeUtils";
 
 @Component({
   selector: 'weapondetails',
@@ -11,9 +12,9 @@ import {MaterialModel} from "../../components/weapon/model/material.model";
 export class WeapondetailsPage {
 
   private weapon: WeaponModel;
-  private buildPathWeapons;
+  private buildPathWeapons: WeaponModel[] = [];
 
-  constructor(private navParams: NavParams, private http: HttpClient) {
+  constructor(private navParams: NavParams, private http: HttpClient, public weapontreeUtils: WeapontreeUtils) {
     this.weapon = navParams.get('weapon');
     this.appendMaterialInfos();
     this.resolveBuildPath();
@@ -35,14 +36,24 @@ export class WeapondetailsPage {
 
   resolveBuildPath() {
     this.http.get<WeaponModel[]>('assets/bow.json').subscribe(data => {
-
+      this.findRoot(this.weapon, data);
+      this.buildPathWeapons.reverse();
     });
-    console.log(this.weapon.buildPath);
   }
 
-  findRecursivly() {
-
+  findRoot(weapon: WeaponModel, data: WeaponModel[]) {
+    let foundweapon = weapon;
+    this.buildPathWeapons.push(foundweapon);
+    if (weapon.parent != null) {
+      foundweapon = data.find(d => d.id === weapon.parent);
+      if (foundweapon) {
+        return this.findRoot(foundweapon, data);
+      }
+    } else {
+      return foundweapon;
+    }
   }
+
 
   ngOnInit() {
   }

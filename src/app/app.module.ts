@@ -9,6 +9,7 @@ import {HomePage} from '../pages/home/home';
 import {ComponentsModule} from "../components/components.module";
 import {HttpClientModule} from "@angular/common/http";
 import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
+import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
   providers: [
     StatusBar,
     SplashScreen,
+    WeapontreeUtils,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
