@@ -17,11 +17,31 @@ export class HomePage {
 
   ngOnInit() {
     this.http.get<WeaponModel[]>('assets/bow.json').subscribe(data => {
-      this.weaponTree = data;
+      this.generateTree(data)
     });
   }
 
-  generateData() {
+  generateTree(data: WeaponModel[]) {
+    data.forEach(d => {
+      if (d.parent == null) {
+        this.weaponTree.push(d);
+        this.resolveChildren(d, data)
+      }
+    });
+  }
+
+  resolveChildren(d, data) {
+    console.log(d);
+    if (d.childrenIds) {
+      d.children = [];
+      d.childrenIds.forEach(childId => {
+        let foundchild = data.find(d => d.id === childId);
+        if (foundchild.childrenIds) {
+          this.resolveChildren(foundchild, data);
+        }
+        d.children.push(foundchild);
+      })
+    }
   }
 
 }

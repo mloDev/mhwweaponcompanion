@@ -11,12 +11,12 @@ import {MaterialModel} from "../../components/weapon/model/material.model";
 export class WeapondetailsPage {
 
   private weapon: WeaponModel;
+  private buildPathWeapons;
 
   constructor(private navParams: NavParams, private http: HttpClient) {
     this.weapon = navParams.get('weapon');
     this.appendMaterialInfos();
-    console.log(this.weapon)
-
+    this.resolveBuildPath();
   }
 
   appendMaterialInfos() {
@@ -31,6 +31,16 @@ export class WeapondetailsPage {
           }
       })
     });
+  }
+
+  resolveBuildPath() {
+    this.http.get<WeaponModel[]>('assets/bow.json').subscribe(data => {
+
+    });
+    console.log(this.weapon.buildPath);
+  }
+
+  findRecursivly() {
 
   }
 

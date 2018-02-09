@@ -1,145 +1,200 @@
-[{
-  "value": "Iron Bow I",
-  "attack": 96,
-  "rare": 1,
-  "slots": {
-    "slot1": 0,
-    "slot2": 0,
-    "slot3": 0
+[
+  {
+    "id": 1,
+    "value": "Iron Bow I",
+    "attack": 96,
+    "rare": 1,
+    "slots": {
+      "slot1": 0,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "materials": [
+      {
+        "materialId": 1,
+        "count": 1
+      }
+    ],
+    "buildPath": [],
+    "childrenIds": [
+      2
+    ]
   },
-  "materials": [
-    {"materialId": 1,
-    "count": 1}
-  ],
-  "children": [
-    {
-      "value": "Iron Bow II",
-      "materials": "Test",
-      "attack": 108,
-      "rare": 1,
-      "children": [
-        {
-          "value": "Iron Bow III",
-          "children": [
-            {
-              "value": "Steel Bow I",
-              "children": [
-                {
-                  "value": "Steel Bow II",
-                  "children": [
-                    {
-                      "value": "Steel Bow III",
-                      "children": [
-                        {
-                          "value": "Alloy Bow I",
-                          "children": [
-                            {
-                              "value": "Alloy Bow II",
-                              "children": []
-                            },
-                            {
-                              "value": "Nergal Whisper",
-                              "element": {
-                                "elementType": "Dragon",
-                                "dmg": 120
-                              },
-                              "children": [
-                                {
-                                  "value": "Doom`s Shaft",
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "value": "Kulu Arrow I",
-          "children": [
-            {
-              "value": "Kulu Arrow II",
-              "children": []
-            },
-            {
-              "value": "Princess Arrow I",
-              "children": [
-                {
-                  "value": "Princess Arrow II",
-                  "children": [
-                    {
-                      "value": "Princess Arrow III",
-                      "children": []
-                    }
-                  ]
-                },
-                {
-                  "value": "Rathslinger I",
-                  "children": [
-                    {
-                      "value": "Rathslinger II",
-                      "children": [
-                        {
-                          "value": "Rathslinger III",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "value": "Aqua Arrow I",
-          "children": [
-            {
-              "value": "Aqua Arrow II",
-              "children": [
-                {
-                  "value": "Aqua Arrow III",
-                  "children": []
-                }
-              ]
-            },
-            {
-              "value": "Water Shot I",
-              "children": [
-                {
-                  "value": "Water Shot II",
-                  "children": []
-                },
-                {
-                  "value": "Glacial Arrow I",
-                  "children": [
-                    {
-                      "value": "Glacial Arrow II",
-                      "children": []
-                    },
-                    {
-                      "value": "Snowfletcher",
-                      "children": [
-                        {
-                          "value": "Legia Snowfletcher",
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+  {
+    "id": 2,
+    "value": "Iron Bow II",
+    "materials": [],
+    "attack": 108,
+    "rare": 1,
+    "slots": {
+      "slot1": 0,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "buildPath": [
+      1
+    ],
+    "parent": 1,
+    "childrenIds": [3, 11]
+  },
+  {
+    "id": 3,
+    "value": "Iron Bow III",
+    "parent": 2,
+    "childrenIds": [4]
+  },
+  {
+    "id": 4,
+    "value": "Steel Bow I",
+    "parent": 3,
+    "childrenIds": [5]
+  },
+  {
+    "id": 5,
+    "value": "Steel Bow II",
+    "parent": 4,
+    "childrenIds": [6]
+  },
+  {
+    "id": 6,
+    "value": "Steel Bow III",
+    "parent": 5,
+    "childrenIds": [7]
+  },
+  {
+    "id": 7,
+    "value": "Alloy Bow I",
+    "parent": 6,
+    "childrenIds": [8, 9]
+  },
+  {
+    "id": 8,
+    "value": "Alloy Bow II",
+    "parent": 7,
+    "childrenIds": []
+  },
+  {
+    "id": 9,
+    "value": "Nergal Whisper",
+    "element": {
+      "elementType": "Dragon",
+      "dmg": 120
+    },
+    "parent": 7,
+    "childrenIds": [10]
+  },
+  {
+    "id": 10,
+    "value": "Doom`s Shaft",
+    "parent": 9,
+    "childrenIds": []
+  },
+  {
+    "id": 11,
+    "value": "Kulu Arrow I",
+    "parent": 2,
+    "childrenIds": [12, 13, 19]
+  },
+  {
+    "id": 12,
+    "value": "Kulu Arrow II",
+    "parent": 11,
+    "childrenIds": []
+  },
+  {
+    "id": 13,
+    "value": "Princess Arrow I",
+    "parent": 11,
+    "childrenIds": [14, 16]
+  },
+  {
+    "id": 14,
+    "value": "Princess Arrow II",
+    "parent": 13,
+    "childrenIds": [15]
+  },
+  {
+    "id": 15,
+    "value": "Princess Arrow III",
+    "parent": 14,
+    "childrenIds": []
+  },
+  {
+    "id": 16,
+    "value": "Rathslinger I",
+    "parent": 13,
+    "childrenIds": [17]
+  },
+  {
+    "id": 17,
+    "value": "Rathslinger II",
+    "parent": 16,
+    "childrenIds": [18]
+  },
+  {
+    "id": 18,
+    "value": "Rathslinger III",
+    "parent": 17,
+    "childrenIds": []
+  },
+  {
+    "id": 19,
+    "value": "Aqua Arrow I",
+    "parent": 2,
+    "childrenIds": [20, 22]
+  },
+  {
+    "id": 20,
+    "value": "Aqua Arrow II",
+    "parent": 19,
+    "childrenIds": [21]
+  },
+  {
+    "id": 21,
+    "value": "Aqua Arrow III",
+    "parent": 20,
+    "childrenIds": []
+  },
+  {
+    "id": 22,
+    "value": "Water Shot I",
+    "parent": 19,
+    "childrenIds": [24, 26]
+  },
+  {
+    "id": 24,
+    "value": "Water Shot II",
+    "parent": 22,
+    "childrenIds": [25]
+  },
+  {
+    "id": 25,
+    "value": "Water Shot III",
+    "parent": 24,
+    "childrenIds": []
+  },
+  {
+    "id": 26,
+    "value": "Glacial Arrow I",
+    "parent": 22,
+    "childrenIds": [27, 28]
+  },
+  {
+    "id": 27,
+    "value": "Glacial Arrow II",
+    "parent": 26,
+    "childrenIds": []
+  },
+  {
+    "id": 28,
+    "value": "Snowfletcher",
+    "parent": 26,
+    "childrenIds": [29]
+  },
+  {
+    "id": 29,
+    "value": "Legia Snowfletcher",
+    "parent": 28,
+    "childrenIds": []
+  }
 ]

@@ -8,6 +8,8 @@ export class WeaponModel implements TreeModel {
   value: string | RenamableNode;
   id?: string | number;
   children?: TreeModel[];
+  parent?: number;
+  childrenIds: number[];
   loadChildren?: ChildrenLoadingFunction;
   settings?: TreeModelSettings;
   emitLoadNextLevel?: boolean;
@@ -20,4 +22,5 @@ export class WeaponModel implements TreeModel {
   rare: number;
   affinity?: any;
   element?: ElementModel;
+  buildPath: number[];
 }
