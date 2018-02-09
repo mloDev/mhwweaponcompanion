@@ -8,7 +8,7 @@
     "slot3": 0
   },
   "materials": [
-    {"name": "Iron Ore",
+    {"materialId": 1,
     "count": 1}
   ],
   "children": [

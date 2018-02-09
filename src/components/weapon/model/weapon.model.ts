@@ -1,7 +1,7 @@
 import {ChildrenLoadingFunction, FoldingType, RenamableNode, TreeModel, TreeModelSettings} from "ng2-tree";
 import {TreeStatus} from "ng2-tree/src/tree.types";
 import {SlotModel} from "./slot.model";
-import {MaterialModel} from "./material.model";
+import {CraftMaterialModel} from "./craftmaterial.model";
 import {ElementModel} from "./element.model";
 
 export class WeaponModel implements TreeModel {
@@ -13,7 +13,7 @@ export class WeaponModel implements TreeModel {
   emitLoadNextLevel?: boolean;
   _status?: TreeStatus;
   _foldingType?: FoldingType;
-  materials?: MaterialModel[];
+  materials?: CraftMaterialModel[];
   attack: number;
   slots?: SlotModel;
   coating?: any;
