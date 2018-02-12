@@ -1,0 +1,57 @@
+weapondetails {
+
+  ion-content {
+    background-color: color($colors, dark, base) !important;
+  }
+
+  .stats {
+    text-align: center;
+    ion-card-header {
+      font-size: 0.8em !important;
+    }
+  }
+
+  .nopadding {
+
+    ion-col {
+      padding: 0;
+    }
+
+    ion-card {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  .nopadding-mat {
+    ion-col {
+      padding: 5px 0 0 0 !important;
+    }
+
+    ion-card {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  ion-card {
+    background-color: color($colors, cardbackground, base) !important;
+    color: #ADACAC !important;
+
+    ion-card-header {
+      padding: 8px !important;
+    }
+
+    ion-card-content {
+      padding: 0 8px 8px !important;
+    }
+
+    p {
+      color: #ADACAC !important;
+    }
+  }
+  ion-card-header {
+    color: white !important;
+  }
+}
+
