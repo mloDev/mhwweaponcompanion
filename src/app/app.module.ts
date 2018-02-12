@@ -5,18 +5,19 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
 
 import {MyApp} from './app.component';
-import {HomePage} from '../pages/home/home';
 import {ComponentsModule} from "../components/components.module";
 import {HttpClientModule} from "@angular/common/http";
 import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
 import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
 import {BuildviewPage} from "../pages/buildview/buildview";
 import {BuildviewPageModule} from "../pages/buildview/buildview.module";
+import {HomePageModule} from "../pages/home/home.module";
+import {TreePage} from "../pages/tree/tree";
+import {TreePageModule} from "../pages/tree/tree.module";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     WeapondetailsPage
   ],
   imports: [
@@ -24,14 +25,16 @@ import {BuildviewPageModule} from "../pages/buildview/buildview.module";
     IonicModule.forRoot(MyApp),
     ComponentsModule,
     HttpClientModule,
-    BuildviewPageModule
+    BuildviewPageModule,
+    HomePageModule,
+    TreePageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
     WeapondetailsPage,
-    BuildviewPage
+    BuildviewPage,
+    TreePage
   ],
   providers: [
     StatusBar,
