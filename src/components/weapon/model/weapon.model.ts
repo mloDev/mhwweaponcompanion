@@ -20,7 +20,8 @@ export class WeaponModel implements TreeModel {
   slots?: SlotModel;
   coating?: any;
   rare: number;
-  affinity?: any;
+  affinity?: number;
   element?: ElementModel;
   buildPath: number[];
+  seal?: string;
 }

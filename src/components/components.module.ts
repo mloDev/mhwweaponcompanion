@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import {TreeModule} from "ng2-tree";
-import {WeapontreeComponent, WeapontreeUtils} from "./weapon/weapontree/weapontree";
+import {WeapontreeComponent} from "./weapon/weapontree/weapontree";
 @NgModule({
 	declarations: [WeapontreeComponent],
 	imports: [TreeModule],

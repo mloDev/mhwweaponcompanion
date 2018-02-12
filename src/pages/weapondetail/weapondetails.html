@@ -8,13 +8,13 @@
 <ion-content>
   <ion-grid>
     <ion-row>
-      <ion-col col-3>
+      <ion-col>
         <ion-card>
           <ion-card-content>
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-3>
+      <ion-col>
         <ion-card>
           <ion-card-header>
             Attack
@@ -24,7 +24,7 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-3>
+      <ion-col>
         <ion-card>
           <ion-card-header>
             Slots
@@ -34,7 +34,7 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-3>
+      <ion-col>
         <ion-card>
           <ion-card-header>
             Rare
@@ -46,17 +46,17 @@
       </ion-col>
     </ion-row>
     <ion-row>
-      <ion-col col-4 *ngIf="weapon.affinity">
+      <ion-col *ngIf="weapon.affinity >= 0">
         <ion-card>
           <ion-card-header>
             Affinity
           </ion-card-header>
           <ion-card-content>
-            {{weapon.attack}}
+            {{weapon.affinity}}%
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-4 *ngIf="weapon.element">
+      <ion-col *ngIf="weapon.element">
         <ion-card>
           <ion-card-header>
             Element
@@ -66,12 +66,22 @@
           </ion-card-content>
         </ion-card>
       </ion-col>
-      <ion-col col-4 *ngIf="weapon.coating">
+      <ion-col *ngIf="weapon.coating">
         <ion-card>
           <ion-card-header>
             Coatings
           </ion-card-header>
           <ion-card-content>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col *ngIf="weapon.seal">
+        <ion-card>
+          <ion-card-header>
+            Elderseal
+          </ion-card-header>
+          <ion-card-content>
+            {{weapon.seal}}
           </ion-card-content>
         </ion-card>
       </ion-col>
@@ -99,12 +109,17 @@
           </ion-card-header>
           <ion-card-content>
               <ion-list no-lines>
-                <label *ngFor="let mat of weapon.materials">
+                <p *ngFor="let mat of weapon.materials">
                   {{ mat.name }} x{{mat.count}}
-                </label>
+                </p>
               </ion-list>
           </ion-card-content>
         </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <button ion-button full (click)="calcMaterial(buildPathWeapons)">Hunt all material</button>
       </ion-col>
     </ion-row>
   </ion-grid>

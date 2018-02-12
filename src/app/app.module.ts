@@ -10,6 +10,8 @@ import {ComponentsModule} from "../components/components.module";
 import {HttpClientModule} from "@angular/common/http";
 import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
 import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
+import {BuildviewPage} from "../pages/buildview/buildview";
+import {BuildviewPageModule} from "../pages/buildview/buildview.module";
 
 @NgModule({
   declarations: [
@@ -21,13 +23,15 @@ import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
     BrowserModule,
     IonicModule.forRoot(MyApp),
     ComponentsModule,
-    HttpClientModule
+    HttpClientModule,
+    BuildviewPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     HomePage,
-    WeapondetailsPage
+    WeapondetailsPage,
+    BuildviewPage
   ],
   providers: [
     StatusBar,

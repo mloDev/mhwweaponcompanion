@@ -3,5 +3,101 @@
     "id": 1,
     "name": "Iron Ore",
     "sourceId": 1
+  },
+  {
+    "id": 2,
+    "name": "Zeny",
+    "sourceId": null
+  },
+  {
+    "id": 3,
+    "name": "Earth Crystal",
+    "sourceId": null
+  },
+  {
+    "id": 4,
+    "name": "Malachite Ore",
+    "sourceId": null
+  },
+  {
+    "id": 5,
+    "name": "Dragonite Ore",
+    "sourceId": null
+  },
+  {
+    "id": 6,
+    "name": "Monster Bone M",
+    "sourceId": null
+  },
+  {
+    "id": 7,
+    "name": "Coral Crystal",
+    "sourceId": null
+  },
+  {
+    "id": 8,
+    "name": "Monster Bone +",
+    "sourceId": null
+  },
+  {
+    "id": 9,
+    "name": "Dragonvein Crystal ",
+    "sourceId": null
+  },
+  {
+    "id": 10,
+    "name": "Carbalite Ore",
+    "sourceId": null
+  },
+  {
+    "id": 11,
+    "name": "Fucium Ore",
+    "sourceId": null
+  },
+  {
+    "id": 12,
+    "name": "Elder Dragon Blood",
+    "sourceId": null
+  },
+  {
+    "id": 13,
+    "name": "Firecell Stone",
+    "sourceId": null
+  },
+  {
+    "id": 14,
+    "name": "Nergigante Talon",
+    "sourceId": 2
+  },
+  {
+    "id": 15,
+    "name": "Nergigante Regrowth Plate",
+    "sourceId": 2
+  },
+  {
+    "id": 16,
+    "name": "Nergigante Tail",
+    "sourceId": 2
+  },
+  {
+    "id": 17,
+    "name": "Nergigante Carapace",
+    "sourceId": 2
+  },
+  {
+    "id": 18,
+    "name": "Xeno'jiiva Horn",
+    "sourceId": null
+  },
+  {
+    "id": 19,
+    "name": "Nergigante Horn+",
+    "sourceId": 2
+  },
+  {
+    "id": 20,
+    "name": "Nergigante Gem",
+    "sourceId": 2
   }
 ]
+
