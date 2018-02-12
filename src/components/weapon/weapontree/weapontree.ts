@@ -18,6 +18,7 @@ import {WeaponModel} from "../model/weapon.model";
 export class WeapontreeComponent {
 
   @Input() private weaponTree: Array<any>;
+  @Input() private weaponType: any;
 
   constructor(private navCtrl: NavController) { }
 
@@ -32,9 +33,9 @@ export class WeapontreeComponent {
   handleSelected(event) {
     let weapon: WeaponModel = event.node;
     this.navCtrl.push(WeapondetailsPage, {
-      weapon: event.node.node
+      weapon: event.node.node,
+      weaponType: this.weaponType
     });
-    console.log(event)
   }
 
 

@@ -7,5 +7,5 @@
 </ion-header>
 
 <ion-content padding *ngFor="let subWeapontree of weaponTree" color="dark">
-  <weapontree *ngIf="subWeapontree" [weaponTree]="subWeapontree"></weapontree>
+  <weapontree *ngIf="subWeapontree" [weaponType]="weaponType" [weaponTree]="subWeapontree"></weapontree>
 </ion-content>

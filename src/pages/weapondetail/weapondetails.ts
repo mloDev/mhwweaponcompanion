@@ -15,10 +15,12 @@ import {BuildviewPage} from "../buildview/buildview";
 export class WeapondetailsPage {
 
   private weapon: WeaponModel;
+  private weaponType: any;
   private buildPathWeapons: WeaponModel[] = [];
 
   constructor(public navCtrl: NavController, private navParams: NavParams, private http: HttpClient, public weapontreeUtils: WeapontreeUtils) {
     this.weapon = navParams.get('weapon');
+    this.weaponType = navParams.get('weaponType');
     console.log(this.weapon.affinity)
     this.appendMaterialInfos([this.weapon]).subscribe();
     this.resolveBuildPath();
@@ -41,7 +43,7 @@ export class WeapondetailsPage {
   }
 
   resolveBuildPath() {
-    this.http.get<WeaponModel[]>('assets/bow.json').subscribe(data => {
+    this.http.get<WeaponModel[]>('assets/weapons/' + this.weaponType.jsonfile ).subscribe(data => {
       this.findRoot(this.weapon, data);
       this.buildPathWeapons.reverse();
     });
