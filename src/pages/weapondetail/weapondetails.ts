@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {IonicPage, NavController, NavParams} from 'ionic-angular';
+import {NavController, NavParams} from 'ionic-angular';
 import {WeaponModel} from "../../components/weapon/model/weapon.model";
 import {HttpClient} from "@angular/common/http";
 import {MaterialModel} from "../../components/weapon/model/material.model";
@@ -21,7 +21,6 @@ export class WeapondetailsPage {
   constructor(public navCtrl: NavController, private navParams: NavParams, private http: HttpClient, public weapontreeUtils: WeapontreeUtils) {
     this.weapon = navParams.get('weapon');
     this.weaponType = navParams.get('weaponType');
-    console.log(this.weapon.affinity)
     this.appendMaterialInfos([this.weapon]).subscribe();
     this.resolveBuildPath();
   }
@@ -32,7 +31,7 @@ export class WeapondetailsPage {
       for (let weapon of weapons) {
         let mat = weapon.materials;
         mat.map(mat => {
-          let foundmat = mats.find( d => d.id === mat.materialId);
+          let foundmat = mats.find(d => d.id === mat.materialId);
           if (foundmat) {
             mat.name = foundmat.name;
             mat.sourceId = foundmat.sourceId;
@@ -43,7 +42,7 @@ export class WeapondetailsPage {
   }
 
   resolveBuildPath() {
-    this.http.get<WeaponModel[]>('assets/weapons/' + this.weaponType.jsonfile ).subscribe(data => {
+    this.http.get<WeaponModel[]>('assets/weapons/' + this.weaponType.jsonfile).subscribe(data => {
       this.findRoot(this.weapon, data);
       this.buildPathWeapons.reverse();
     });
@@ -70,23 +69,19 @@ export class WeapondetailsPage {
       }
       mats = [].concat.apply([], mats);
       let plainMatList = _.chain(mats)
-          .groupBy('materialId')
-          .map(function(mats, key) {
-            console.log(mats[0].name)
-            return {
-              name: mats[0].name,
-              sourceId: mats[0].sourceId,
-              count: _(mats).reduce(function(m,x) {
-                return m + x.count;
-              }, 0)
-            };
-          }).value();
+        .groupBy('materialId')
+        .map(function (mats, key) {
+          console.log(mats[0].name)
+          return {
+            name: mats[0].name,
+            sourceId: mats[0].sourceId,
+            count: _(mats).reduce(function (m, x) {
+              return m + x.count;
+            }, 0)
+          };
+        }).value();
       this.navCtrl.push(BuildviewPage, {matList: plainMatList, weapon: this.weapon});
     });
-  }
-
-
-  ngOnInit() {
   }
 
 }
