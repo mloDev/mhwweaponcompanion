@@ -1,6 +1,7 @@
 import {Component, EventEmitter, Input, Output} from '@angular/core';
 import {NavController} from "ionic-angular";
 import {WeaponTypeSelectPage} from "../../pages/weapontypeselect/weapontypeselect";
+import {ArmorselectPage} from "../../pages/armorselect/armorselect";
 
 @Component({
   selector: 'loadout',
@@ -16,6 +17,10 @@ export class LoadoutComponent {
 
   selectWeapon() {
     this.navCtrl.push(WeaponTypeSelectPage, {weaponSelectCallback: this.weaponSelectCallback});
+  }
+
+  selectArmor(type) {
+    this.navCtrl.push(ArmorselectPage, {type: type});
   }
 
   weaponSelectCallback(weapon) {

@@ -17,6 +17,7 @@ import {HomePageModule} from "../pages/home/home.module";
 import {LoadoutPageModule} from "../pages/loadout/loadout.module";
 import {LoadoutPage} from "../pages/loadout/loadout";
 import {WeaponTypeSelectPageModule} from "../pages/weapontypeselect/weapontypeselect.module";
+import {ArmorselectPageModule} from "../pages/armorselect/armorselect.module";
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {WeaponTypeSelectPageModule} from "../pages/weapontypeselect/weapontypese
     HomePageModule,
     WeaponTypeSelectPageModule,
     TreePageModule,
-    LoadoutPageModule
+    LoadoutPageModule,
+    ArmorselectPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [

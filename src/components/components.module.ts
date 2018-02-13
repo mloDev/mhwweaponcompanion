@@ -5,18 +5,21 @@ import {LoadoutComponent} from './loadout/loadout';
 import {StatsComponent} from './stats/stats';
 import {SkillsComponent} from './skills/skills';
 import {IonicModule} from "ionic-angular";
+import { ArmortreeComponent } from './armor/armortree/armortree';
 
 @NgModule({
   declarations: [WeapontreeComponent,
     LoadoutComponent,
     StatsComponent,
-    SkillsComponent],
+    SkillsComponent,
+    ArmortreeComponent],
   imports: [IonicModule,
     TreeModule],
   exports: [WeapontreeComponent,
     LoadoutComponent,
     StatsComponent,
-    SkillsComponent],
+    SkillsComponent,
+    ArmortreeComponent],
   providers: []
 })
 export class ComponentsModule {

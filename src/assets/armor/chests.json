@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Leather Chest",
+    "skills": [
+      {
+        "name": "Skill I",
+        "skillId": 1,
+        "level": 1
+      }
+    ]
+  },
+  {
+    "name": "Hunter Chest",
+    "skills": [
+      {
+        "name": "Skill II",
+        "skillId": 2,
+        "level": 4
+      }
+    ]
+  }
+]

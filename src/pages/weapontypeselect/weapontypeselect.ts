@@ -31,8 +31,7 @@ export class WeaponTypeSelectPage {
   }
 
   selectWeaponTree(type: any) {
-    let cb = this.navParams.get('weaponSelectCallback');
-    this.navCtrl.push(TreePage, {weaponType: type, weaponSelectCallback: cb});
+    this.navCtrl.push(TreePage, {weaponType: type});
   }
 
 }

@@ -10,7 +10,6 @@ export class SkillsComponent {
   private skills: any[] = [];
 
   constructor() {
-    this.skills = [{name: 'Fortify', level: 1}, {name: 'Attack', level: 3}]
   }
 
 }
