@@ -11,6 +11,12 @@
   },
   {
     "name": "Hunter Chest",
+    "defense": 70,
+    "fire": 1,
+    "ice": 14,
+    "thunder": -3,
+    "water": 0,
+    "dragon": 0,
     "skills": [
       {
         "name": "Skill II",

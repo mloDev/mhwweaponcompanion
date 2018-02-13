@@ -11,6 +11,12 @@
   },
   {
     "name": "Hunter Head",
+    "defense": 70,
+    "fire": 35,
+    "ice": 18,
+    "thunder": -14,
+    "water": 0,
+    "dragon": 0,
     "skills": [
       {
         "name": "Skill II",

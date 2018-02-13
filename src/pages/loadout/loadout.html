@@ -15,7 +15,7 @@
     </div>
 
     <div *ngSwitchCase="'stats'">
-      <stats></stats>
+      <stats [stats]="stats"></stats>
     </div>
 
     <div *ngSwitchCase="'skills'">
@@ -30,7 +30,7 @@
       <ion-segment-button value="loadout">
         Loadout
       </ion-segment-button>
-      <ion-segment-button value="stats">
+      <ion-segment-button value="stats" (click)="calcStats()">
         Stats
       </ion-segment-button>
       <ion-segment-button value="skills" (click)="calcSkills()">
