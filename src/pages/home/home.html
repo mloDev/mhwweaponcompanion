@@ -1,6 +1,10 @@
 <ion-content padding>
-
-  <button (click)="gotoNewLoadOut()">New loadout</button>
-  <button (click)="gotoWeaponBrowser()">All weapons</button>
-
+  <ion-grid>
+    <ion-col col-12>
+      <button ion-button clear full (click)="gotoNewLoadOut()">New loadout</button>
+    </ion-col>
+    <ion-col col-12>
+      <button ion-button clear full (click)="gotoWeaponBrowser()">All weapons</button>
+    </ion-col>
+  </ion-grid>
 </ion-content>
