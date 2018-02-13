@@ -1,5 +1,5 @@
 import {Component, Input, ViewEncapsulation} from '@angular/core';
-import {NavController} from "ionic-angular";
+import {NavController, NavParams} from "ionic-angular";
 import {WeapondetailsPage} from "../../../pages/weapondetail/weapondetails";
 
 @Component({
@@ -12,7 +12,7 @@ export class WeapontreeComponent {
   @Input() private weaponTree: Array<any>;
   @Input() private weaponType: any;
 
-  constructor(private navCtrl: NavController) {
+  constructor(private navCtrl: NavController, private navParams: NavParams) {
   }
 
   handleSelected(event) {

@@ -1,3 +1,53 @@
-<div>
-  Loadout
-</div>
+  <ion-grid>
+    <ion-row>
+    <ion-col col-6>
+      <ion-card (click)="selectWeapon()">
+        <ion-card-content>
+          {{loadout.weapon.value}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.charm.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.head.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.chest.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.arms.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.waist.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col col-6>
+      <ion-card>
+        <ion-card-content>
+          {{loadout.legs.name}}
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+  </ion-grid>

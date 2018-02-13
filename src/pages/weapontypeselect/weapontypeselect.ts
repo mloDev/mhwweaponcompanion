@@ -1,6 +1,5 @@
 import {Component} from '@angular/core';
-import {IonicPage, NavController, NavParams} from 'ionic-angular';
-import {TreePage} from "../tree/tree";
+import {IonicPage} from 'ionic-angular';
 
 @IonicPage()
 @Component({
@@ -24,16 +23,9 @@ export class WeaponTypeSelectPage {
     {name: 'Light Bowgun', jsonfile: 'light-bowgun.json', image: 'light-bowgun-icon.png'},
     {name: 'Heavy Bowgun', jsonfile: 'heavy-bowgun.json', image: 'heavy-bowgun-icon.png'},
     {name: 'Bow', jsonfile: 'bow.json', image: 'bow-icon.png'}
-  ]
+  ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-  }
-
-  selectWeaponTree(type: any) {
-    this.navCtrl.push(TreePage, {weaponType: type});
-  }
-
-  ionViewDidLoad() {
+  constructor() {
   }
 
 }

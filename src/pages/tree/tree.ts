@@ -22,7 +22,4 @@ export class TreePage {
       this.weaponTree = this.weapontreeUtils.generateTree(data)
     });
   }
-
-
-
 }

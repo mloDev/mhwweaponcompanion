@@ -1,3 +1,5 @@
-<div>
-  Skills
-</div>
+<ion-list>
+  <ion-item *ngFor="let skill of skills">
+    {{skill.name}} - {{skill.level}}
+  </ion-item>
+</ion-list>

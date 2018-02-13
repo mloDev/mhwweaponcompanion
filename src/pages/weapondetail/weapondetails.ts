@@ -1,5 +1,5 @@
 import {Component} from '@angular/core';
-import {NavController, NavParams} from 'ionic-angular';
+import {Events, NavController, NavParams} from 'ionic-angular';
 import {WeaponModel} from "../../components/weapon/model/weapon.model";
 import {HttpClient} from "@angular/common/http";
 import {MaterialModel} from "../../components/weapon/model/material.model";
@@ -18,7 +18,7 @@ export class WeapondetailsPage {
   private weaponType: any;
   private buildPathWeapons: WeaponModel[] = [];
 
-  constructor(public navCtrl: NavController, private navParams: NavParams, private http: HttpClient, public weapontreeUtils: WeapontreeUtils) {
+  constructor(public events: Events, public navCtrl: NavController, private navParams: NavParams, private http: HttpClient, public weapontreeUtils: WeapontreeUtils) {
     this.weapon = navParams.get('weapon');
     this.weaponType = navParams.get('weaponType');
     this.appendMaterialInfos([this.weapon]).subscribe();
@@ -82,6 +82,11 @@ export class WeapondetailsPage {
         }).value();
       this.navCtrl.push(BuildviewPage, {matList: plainMatList, weapon: this.weapon});
     });
+  }
+
+  selectWeapon() {
+    this.events.publish('weapon:selected', this.weapon);
+    this.navCtrl.popTo(this.navCtrl.getByIndex(1));
   }
 
 }

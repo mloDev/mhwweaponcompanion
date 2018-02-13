@@ -11,7 +11,7 @@
 <ion-content padding>
   <div [ngSwitch]="viewState">
     <div *ngSwitchCase="'loadout'">
-      <loadout></loadout>
+      <loadout [(loadout)]="loadout"></loadout>
     </div>
 
     <div *ngSwitchCase="'stats'">

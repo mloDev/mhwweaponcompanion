@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'skills',
@@ -6,7 +6,11 @@ import { Component } from '@angular/core';
 })
 export class SkillsComponent {
 
+  @Input()
+  private skills: any[] = [];
+
   constructor() {
+    this.skills = [{name: 'Fortify', level: 1}, {name: 'Attack', level: 3}]
   }
 
 }
