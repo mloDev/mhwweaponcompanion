@@ -19,7 +19,6 @@ export class ArmorselectPage {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ArmorselectPage');
   }
 
 }
