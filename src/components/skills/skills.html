@@ -1,5 +1,6 @@
 <ion-list>
   <ion-item *ngFor="let skill of skills">
-    {{skill.name}} - {{skill.level}}
+    <ion-label>{{skill.name}}</ion-label>
+    <ion-badge item-end *ngFor="let i of skill.level | fill"> </ion-badge>
   </ion-item>
 </ion-list>

@@ -3,7 +3,7 @@ import {TreeModule} from "ng2-tree";
 import {WeapontreeComponent} from "./weapon/weapontree/weapontree";
 import {LoadoutComponent} from './loadout/loadout';
 import {StatsComponent} from './stats/stats';
-import {SkillsComponent} from './skills/skills';
+import {FillPipe, SkillsComponent} from './skills/skills';
 import {IonicModule} from "ionic-angular";
 import { ArmortreeComponent } from './armor/armortree/armortree';
 
@@ -12,14 +12,16 @@ import { ArmortreeComponent } from './armor/armortree/armortree';
     LoadoutComponent,
     StatsComponent,
     SkillsComponent,
-    ArmortreeComponent],
+    ArmortreeComponent,
+    FillPipe],
   imports: [IonicModule,
     TreeModule],
   exports: [WeapontreeComponent,
     LoadoutComponent,
     StatsComponent,
     SkillsComponent,
-    ArmortreeComponent],
+    ArmortreeComponent,
+    FillPipe],
   providers: []
 })
 export class ComponentsModule {
