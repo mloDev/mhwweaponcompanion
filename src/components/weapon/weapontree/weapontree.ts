@@ -1,5 +1,4 @@
-import {Component, Directive, Injectable, Input, ViewEncapsulation} from '@angular/core';
-import * as d3 from "d3";
+import {Component, Input, ViewEncapsulation} from '@angular/core';
 import {NavController} from "ionic-angular";
 import {WeapondetailsPage} from "../../../pages/weapondetail/weapondetails";
 import {WeaponModel} from "../model/weapon.model";

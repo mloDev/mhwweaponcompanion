@@ -11,9 +11,12 @@ import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
 import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
 import {BuildviewPage} from "../pages/buildview/buildview";
 import {BuildviewPageModule} from "../pages/buildview/buildview.module";
-import {HomePageModule} from "../pages/home/home.module";
 import {TreePage} from "../pages/tree/tree";
 import {TreePageModule} from "../pages/tree/tree.module";
+import {HomePageModule} from "../pages/home/home.module";
+import {WeaponselectPageModule} from "../pages/weaponselect/weaponselect.module";
+import {LoadoutPageModule} from "../pages/loadout/loadout.module";
+import {LoadoutPage} from "../pages/loadout/loadout";
 
 @NgModule({
   declarations: [
@@ -27,14 +30,17 @@ import {TreePageModule} from "../pages/tree/tree.module";
     HttpClientModule,
     BuildviewPageModule,
     HomePageModule,
-    TreePageModule
+    WeaponselectPageModule,
+    TreePageModule,
+    LoadoutPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
     WeapondetailsPage,
     BuildviewPage,
-    TreePage
+    TreePage,
+    LoadoutPage
   ],
   providers: [
     StatusBar,
