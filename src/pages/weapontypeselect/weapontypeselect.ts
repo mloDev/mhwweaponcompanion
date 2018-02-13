@@ -2,19 +2,12 @@ import {Component} from '@angular/core';
 import {IonicPage, NavController, NavParams} from 'ionic-angular';
 import {TreePage} from "../tree/tree";
 
-/**
- * Generated class for the TreePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
-
 @IonicPage()
 @Component({
-  selector: 'page-weaponselect',
-  templateUrl: 'weaponselect.html',
+  selector: 'page-weapontypeselect',
+  templateUrl: 'weapontypeselect.html',
 })
-export class WeaponselectPage {
+export class WeaponTypeSelectPage {
 
   private weaponTypes = [
     {name: 'Great Sword', jsonfile: 'greatswords.json', image: 'greatswords-icon.png'},

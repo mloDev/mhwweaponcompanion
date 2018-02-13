@@ -14,9 +14,9 @@ import {BuildviewPageModule} from "../pages/buildview/buildview.module";
 import {TreePage} from "../pages/tree/tree";
 import {TreePageModule} from "../pages/tree/tree.module";
 import {HomePageModule} from "../pages/home/home.module";
-import {WeaponselectPageModule} from "../pages/weaponselect/weaponselect.module";
 import {LoadoutPageModule} from "../pages/loadout/loadout.module";
 import {LoadoutPage} from "../pages/loadout/loadout";
+import {WeaponTypeSelectPageModule} from "../pages/weapontypeselect/weapontypeselect.module";
 
 @NgModule({
   declarations: [
@@ -30,7 +30,7 @@ import {LoadoutPage} from "../pages/loadout/loadout";
     HttpClientModule,
     BuildviewPageModule,
     HomePageModule,
-    WeaponselectPageModule,
+    WeaponTypeSelectPageModule,
     TreePageModule,
     LoadoutPageModule
   ],

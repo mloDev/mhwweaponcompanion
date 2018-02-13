@@ -1,15 +1,15 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
-import {WeaponselectPage} from "./weaponselect";
 import {ComponentsModule} from "../../components/components.module";
+import {WeaponTypeSelectPage} from "./weapontypeselect";
 
 @NgModule({
   declarations: [
-    WeaponselectPage,
+    WeaponTypeSelectPage,
   ],
   imports: [
-    IonicPageModule.forChild(WeaponselectPage),
+    IonicPageModule.forChild(WeaponTypeSelectPage),
     ComponentsModule
   ],
 })
-export class WeaponselectPageModule {}
+export class WeaponTypeSelectPageModule {}

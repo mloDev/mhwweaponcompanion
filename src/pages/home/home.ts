@@ -1,14 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {WeaponselectPage} from "../weaponselect/weaponselect";
 import {LoadoutPage} from "../loadout/loadout";
-
-/**
- * Generated class for the HomePage page.
- *
- * See https://ionicframework.com/docs/components/#navigation for more info on
- * Ionic pages and navigation.
- */
+import {WeaponTypeSelectPage} from "../weapontypeselect/weapontypeselect";
 
 @IonicPage()
 @Component({
@@ -21,7 +14,7 @@ export class HomePage {
   }
 
   gotoWeaponBrowser() {
-    this.navCtrl.push(WeaponselectPage);
+    this.navCtrl.push(WeaponTypeSelectPage);
   }
 
   gotoNewLoadOut() {
