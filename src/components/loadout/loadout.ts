@@ -20,12 +20,11 @@ export class LoadoutComponent {
   }
 
   selectArmor(type) {
+    console.log(type)
     this.navCtrl.push(ArmorselectPage, {type: type});
   }
 
   weaponSelectCallback(weapon) {
-    console.log(weapon);
-
     this.loadout.weapon = weapon;
   }
 

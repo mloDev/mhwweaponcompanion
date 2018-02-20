@@ -1,28 +1,884 @@
 [
   {
-    "name": "Leather Head",
-    "skills": [
-      {
-        "name": "Skill I",
-        "skillId": 1,
-        "level": 1
-      }
-    ]
+    "name": "Alloy Helm Alpha",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
   },
   {
-    "name": "Hunter Head",
-    "defense": 70,
-    "fire": 35,
-    "ice": 18,
-    "thunder": -14,
+    "name": "Alloy Helm Beta",
+    "defense": 36,
+    "fire": -2,
     "water": 0,
-    "dragon": 0,
-    "skills": [
-      {
-        "name": "Skill II",
-        "skillId": 2,
-        "level": 4
-      }
-    ]
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Helmet Alpha",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Helm Beta",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Baan Helm Alpha",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Baan Helm Beta",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Barroth Helm Alpha",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Barroth Helm Beta",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Bazel Helm Alpha",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bazel Helm Beta",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bone Helm Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Bone Helm Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Lobos Alpha",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Lobos Beta",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Vertex Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Vertex Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Chainmail Headgear Alpha",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Chainmail Headgear Beta",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Commission Gorget Alpha",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Commission Gorget Beta",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Damascus Helm Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Damascus Helm Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Death Stench Brain Alpha",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Death Stench Brain Beta",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Diablos Helm Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Helm Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Helm Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Helm Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Dober Helm Alpha",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dober Helm Beta",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dodogama Helm Alpha",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dodogama Helm Beta",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dragon King Alpha",
+    "defense": 70,
+    "fire": 0,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Faux Felyne Helm Alpha",
+    "defense": 56,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Gastodon Horn Alpha",
+    "defense": 48,
+    "fire": 3,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Gastodon Horn Beta",
+    "defense": 48,
+    "fire": 3,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Girros Mask Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Girros Mask Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "High Metal Helm Alpha",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "High Metal Helm Beta",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Hornetaur Helm Alpha",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hornetaur Helm Beta",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hunter's Headgear Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Hunter's Headgear Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Helmet Alpha",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Helm Beta",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Jagras Helm Alpha ",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jagras Helm Beta",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jyura Helm Beta",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Jyura Helm Alpha",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Helm Alpha",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Helm Beta",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "King Beetle Vertex Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "King Beetle Vertex Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Horn Alpha",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Horn Beta",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kulu Headpiece Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kulu Headpiece Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kushala Glare Alpha",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Kushala Glare Beta",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Lavasioth Helm Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Lavasioth Helm Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Leather Headgear Alpha",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Leather Headgear Beta",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Helm Alpha",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Helm Beta",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Hat Alpha",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Hat Beta",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Mosswine Mask Alpha",
+    "defense": 40,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Nergigante Helm Alpha",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Nergigante Helm Beta",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Odogaron Helm Alpha",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Odogaron Helm Beta",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Pukei Hood Alpha",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Pukei Hood Beta",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Rath Heart Helm Alpha",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Heart Helm Beta",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Helm Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Helm Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rathalos Helm Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Rathalos Helm Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Shamos Goggles Alpha",
+    "defense": 40,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Shamos Goggles Beta",
+    "defense": 40,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Strategist Spectacles Alpha",
+    "defense": 56,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Kaiser Crown Alpha",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Kaiser Crown Beta",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Tzitzi Headgear Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Tzitzi Headgear Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Uragaan Helm Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Uragaan Helm Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Vaal Hazak Helm Alpha",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vaal Hazak Helm Beta",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vespoid Helm Alpha",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Vespoid Helm Beta",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Xeno'jiiva Headgear Alpha ",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Xeno'jiiva Headgear Beta",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Zorah Headgear Alpha",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Headgear Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
   }
 ]

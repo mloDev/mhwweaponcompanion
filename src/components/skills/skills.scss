@@ -4,4 +4,8 @@ skills {
     height: 15px;
     width: 15px;
   }
+  ion-item {
+    background-color: color($colors, cardbackground, base) !important;
+    color: white !important;
+  }
 }

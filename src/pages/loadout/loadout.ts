@@ -84,7 +84,7 @@ export class LoadoutPage {
     this.events.subscribe('charms:selected', (eventData) => {
       this.loadout.charm = eventData;
     });
-    this.events.subscribe('waits:selected', (eventData) => {
+    this.events.subscribe('waists:selected', (eventData) => {
       this.loadout.waist = eventData;
     });
     this.events.subscribe('heads:selected', (eventData) => {
@@ -126,7 +126,6 @@ export class LoadoutPage {
         dragon: this.calcSingleStat('dragon'),
         water: this.calcSingleStat('water')
       };
-    console.log(this.stats)
   }
 
   calcSingleStat(type) {
