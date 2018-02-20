@@ -5,32 +5,49 @@ import {SplashScreen} from '@ionic-native/splash-screen';
 import {StatusBar} from '@ionic-native/status-bar';
 
 import {MyApp} from './app.component';
-import {HomePage} from '../pages/home/home';
 import {ComponentsModule} from "../components/components.module";
 import {HttpClientModule} from "@angular/common/http";
 import {WeapondetailsPage} from "../pages/weapondetail/weapondetails";
+import {WeapontreeUtils} from "../components/weapon/weapontree/weapontreeUtils";
+import {BuildviewPage} from "../pages/buildview/buildview";
+import {BuildviewPageModule} from "../pages/buildview/buildview.module";
+import {TreePage} from "../pages/tree/tree";
+import {TreePageModule} from "../pages/tree/tree.module";
+import {HomePageModule} from "../pages/home/home.module";
+import {LoadoutPageModule} from "../pages/loadout/loadout.module";
+import {LoadoutPage} from "../pages/loadout/loadout";
+import {WeaponTypeSelectPageModule} from "../pages/weapontypeselect/weapontypeselect.module";
+import {ArmorselectPageModule} from "../pages/armorselect/armorselect.module";
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
     WeapondetailsPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     ComponentsModule,
-    HttpClientModule
+    HttpClientModule,
+    BuildviewPageModule,
+    HomePageModule,
+    WeaponTypeSelectPageModule,
+    TreePageModule,
+    LoadoutPageModule,
+    ArmorselectPageModule
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
-    WeapondetailsPage
+    WeapondetailsPage,
+    BuildviewPage,
+    TreePage,
+    LoadoutPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
+    WeapontreeUtils,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })

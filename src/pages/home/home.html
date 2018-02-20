@@ -1,11 +1,10 @@
-<ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding *ngFor="let subWeapontree of weaponTree">
-  <weapontree *ngIf="subWeapontree" [weaponTree]="subWeapontree"></weapontree>
+<ion-content padding color="dark">
+  <ion-grid>
+    <ion-col col-12>
+      <button ion-button color="cardbackground" full (click)="gotoNewLoadOut()">New loadout</button>
+    </ion-col>
+    <ion-col col-12>
+      <button ion-button color="cardbackground" full (click)="gotoWeaponBrowser()">All weapons</button>
+    </ion-col>
+  </ion-grid>
 </ion-content>

@@ -1,0 +1,692 @@
+[
+  {
+    "name": "Artillery Charm I"
+  },
+  {
+    "name": "Artillery Charm II"
+  },
+  {
+    "name": "Artillery Charm III"
+  },
+  {
+    "name": "Attack Charm I"
+  },
+  {
+    "name": "Attack Charm II"
+  },
+  {
+    "name": "Attack Charm III"
+  },
+  {
+    "name": "Awakening Charm I"
+  },
+  {
+    "name": "Awakening Charm II"
+  },
+  {
+    "name": "Blast Charm I"
+  },
+  {
+    "name": "Blast Charm II"
+  },
+  {
+    "name": "Blast Charm III"
+  },
+  {
+    "name": "Blaze Charm I"
+  },
+  {
+    "name": "Blaze Charm II"
+  },
+  {
+    "name": "Blaze Charm III"
+  },
+  {
+    "name": "Gale Charm"
+  },
+  {
+    "name": "WyrmSlayer Charm"
+  },
+  {
+    "name": "Bulwark Charm"
+  },
+  {
+    "name": "Penetration Charm"
+  },
+  {
+    "name": "Critical Boost"
+  },
+  {
+    "name": "Dispersal Charm"
+  },
+  {
+    "name": "Bleed Charm I"
+  },
+  {
+    "name": "Bleed Charm II"
+  },
+  {
+    "name": "Bleed Charm III"
+  },
+  {
+    "name": "Blessing Charm I"
+  },
+  {
+    "name": "Blessing Charm II"
+  },
+  {
+    "name": "Blessing Charm III"
+  },
+  {
+    "name": "Blight Charm I"
+  },
+  {
+    "name": "Blight Charm II"
+  },
+  {
+    "name": "Blight Charm III"
+  },
+  {
+    "name": "Bombardier Charm I"
+  },
+  {
+    "name": "Bombardier Charm II"
+  },
+  {
+    "name": "Bombardier Charm III"
+  },
+  {
+    "name": "Botany Charm I"
+  },
+  {
+    "name": "Botany Charm II"
+  },
+  {
+    "name": "Botany Charm III"
+  },
+  {
+    "name": "Breaker Charm I"
+  },
+  {
+    "name": "Breaker Charm II"
+  },
+  {
+    "name": "Capacity Charm"
+  },
+  {
+    "name": "Challenger Charm I"
+  },
+  {
+    "name": "Challenger Charm II"
+  },
+  {
+    "name": "Clearmind Charm"
+  },
+  {
+    "name": "Defense Charm I"
+  },
+  {
+    "name": "Defense Charm II"
+  },
+  {
+    "name": "Defense Charm III"
+  },
+  {
+    "name": "Demolition Charm I"
+  },
+  {
+    "name": "Demolition Charm II"
+  },
+  {
+    "name": "Demolition Charm III"
+  },
+  {
+    "name": "Dragon Charm I"
+  },
+  {
+    "name": "Dragon Charm II"
+  },
+  {
+    "name": "Dragon Charm III"
+  },
+  {
+    "name": "Draw Charm I"
+  },
+  {
+    "name": "Draw Charm II"
+  },
+  {
+    "name": "Earplugs Charm I"
+  },
+  {
+    "name": "Earplugs Charm II"
+  },
+  {
+    "name": "Earplugs Charm III"
+  },
+  {
+    "name": "Enervate Charm I"
+  },
+  {
+    "name": "Enervate Charm II"
+  },
+  {
+    "name": "Enervate Charm III"
+  },
+  {
+    "name": "Evasion Charm I"
+  },
+  {
+    "name": "Evasion Charm II"
+  },
+  {
+    "name": "Evasion Charm III"
+  },
+  {
+    "name": "Exploiter Charm I"
+  },
+  {
+    "name": "Exploiter Charm II"
+  },
+  {
+    "name": "Extension Charm I"
+  },
+  {
+    "name": "Extension Charm II"
+  },
+  {
+    "name": "Extension Charm III"
+  },
+  {
+    "name": "Fire Charm I"
+  },
+  {
+    "name": "Fire Charm II"
+  },
+  {
+    "name": "Fire Charm III"
+  },
+  {
+    "name": "Fitness Charm I"
+  },
+  {
+    "name": "Fitness Charm II"
+  },
+  {
+    "name": "Fitness Charm III"
+  },
+  {
+    "name": "Flood Charm I"
+  },
+  {
+    "name": "Flood Charm II"
+  },
+  {
+    "name": "Flood Charm III"
+  },
+  {
+    "name": "Focus Charm I"
+  },
+  {
+    "name": "Focus Charm II"
+  },
+  {
+    "name": "Fortification Charm"
+  },
+  {
+    "name": "Friendship Charm I"
+  },
+  {
+    "name": "Friendship Charm II"
+  },
+  {
+    "name": "Friendship Charm III"
+  },
+  {
+    "name": "Frost Charm I"
+  },
+  {
+    "name": "Frost Charm II"
+  },
+  {
+    "name": "Frost Charm III"
+  },
+  {
+    "name": "Fury Charm I"
+  },
+  {
+    "name": "Fury Charm II"
+  },
+  {
+    "name": "Gatherer's Charm"
+  },
+  {
+    "name": "Geology Charm I"
+  },
+  {
+    "name": "Geology Charm II"
+  },
+  {
+    "name": "Geology Charm III"
+  },
+  {
+    "name": "Geomancy Charm"
+  },
+  {
+    "name": "Glutton's Charm I"
+  },
+  {
+    "name": "Glutton's Charm II"
+  },
+  {
+    "name": "Glutton's Charm III"
+  },
+  {
+    "name": "Grit Charm I"
+  },
+  {
+    "name": "Grit Charm II"
+  },
+  {
+    "name": "Guard Charm I"
+  },
+  {
+    "name": "Guard Charm II"
+  },
+  {
+    "name": "Guard Charm III"
+  },
+  {
+    "name": "Handicraft Charm I"
+  },
+  {
+    "name": "Handicraft Charm II"
+  },
+  {
+    "name": "Handicraft Charm III"
+  },
+  {
+    "name": "Health Charm I"
+  },
+  {
+    "name": "Health Charm II"
+  },
+  {
+    "name": "Health Charm III"
+  },
+  {
+    "name": "Heavy Artillery Charm I"
+  },
+  {
+    "name": "Heavy Artillery Charm II"
+  },
+  {
+    "name": "Heavy Artillery Charm III"
+  },
+  {
+    "name": "Hungerless Charm I"
+  },
+  {
+    "name": "Hungerless Charm II"
+  },
+  {
+    "name": "Hungerless Charm III"
+  },
+  {
+    "name": "Hunter's Life Charm"
+  },
+  {
+    "name": "Ice Charm I"
+  },
+  {
+    "name": "Ice Charm II"
+  },
+  {
+    "name": "Ice Charm III"
+  },
+  {
+    "name": "Immobilize Charm I"
+  },
+  {
+    "name": "Immobilize Charm II"
+  },
+  {
+    "name": "Immobilize Charm III"
+  },
+  {
+    "name": "Impact Charm I"
+  },
+  {
+    "name": "Impact Charm II"
+  },
+  {
+    "name": "Insect Charm I"
+  },
+  {
+    "name": "Insect Charm II"
+  },
+  {
+    "name": "Insect Charm III"
+  },
+  {
+    "name": "Intimidator Charm I"
+  },
+  {
+    "name": "Intimidator Charm II"
+  },
+  {
+    "name": "Intimidator Charm III"
+  },
+  {
+    "name": "Invigorate Charm I"
+  },
+  {
+    "name": "Invigorate Charm II"
+  },
+  {
+    "name": "Ironside Charm I"
+  },
+  {
+    "name": "Ironside Charm II"
+  },
+  {
+    "name": "Ironside Charm III"
+  },
+  {
+    "name": "KO Charm I"
+  },
+  {
+    "name": "KO Charm II"
+  },
+  {
+    "name": "KO Charm III"
+  },
+  {
+    "name": "Leaping Charm I"
+  },
+  {
+    "name": "Leaping Charm II"
+  },
+  {
+    "name": "Light Eater's Charm"
+  },
+  {
+    "name": "Maintenance Charm I"
+  },
+  {
+    "name": "Maintenance Charm II"
+  },
+  {
+    "name": "Maintenance Charm III"
+  },
+  {
+    "name": "Marathon Charm I"
+  },
+  {
+    "name": "Marathon Charm II"
+  },
+  {
+    "name": "Master's Charm I"
+  },
+  {
+    "name": "Master's Charm II"
+  },
+  {
+    "name": "Master's Charm III"
+  },
+  {
+    "name": "Miasma Charm I"
+  },
+  {
+    "name": "Miasma Charm II"
+  },
+  {
+    "name": "Miasma Charm III"
+  },
+  {
+    "name": "Mighty Charm I"
+  },
+  {
+    "name": "Mighty Charm II"
+  },
+  {
+    "name": "Mirewalker Charm I"
+  },
+  {
+    "name": "Mirewalker Charm II"
+  },
+  {
+    "name": "Mirewalker Charm III"
+  },
+  {
+    "name": "Mud Puppy Charm"
+  },
+  {
+    "name": "Mushroom Charm I"
+  },
+  {
+    "name": "Mushroom Charm II"
+  },
+  {
+    "name": "Normal Shots Charm"
+  },
+  {
+    "name": "Paralysis Charm I"
+  },
+  {
+    "name": "Paralysis Charm II"
+  },
+  {
+    "name": "Paralysis Charm III"
+  },
+  {
+    "name": "Performer's Charm"
+  },
+  {
+    "name": "Poison Charm I"
+  },
+  {
+    "name": "Poison Charm II"
+  },
+  {
+    "name": "Poison Charm III"
+  },
+  {
+    "name": "Power Charm I"
+  },
+  {
+    "name": "Power Charm II"
+  },
+  {
+    "name": "Procurer's Charm"
+  },
+  {
+    "name": "Rally Charm I"
+  },
+  {
+    "name": "Rally Charm II"
+  },
+  {
+    "name": "Rally Charm III"
+  },
+  {
+    "name": "Recovery Charm I"
+  },
+  {
+    "name": "Recovery Charm II"
+  },
+  {
+    "name": "Recovery Charm III"
+  },
+  {
+    "name": "Rider's Charm"
+  },
+  {
+    "name": "Sheath Charm I"
+  },
+  {
+    "name": "Sheath Charm II"
+  },
+  {
+    "name": "Sheath Charm III"
+  },
+  {
+    "name": "Shock Charm I"
+  },
+  {
+    "name": "Shock Charm II"
+  },
+  {
+    "name": "Shock Charm III"
+  },
+  {
+    "name": "Sleep Charm I"
+  },
+  {
+    "name": "Sleep Charm II"
+  },
+  {
+    "name": "Sleep Charm III"
+  },
+  {
+    "name": "Slinger Charm I"
+  },
+  {
+    "name": "Slinger Charm II"
+  },
+  {
+    "name": "Slinger Charm III"
+  },
+  {
+    "name": "Smoke Charm I"
+  },
+  {
+    "name": "Smoke Charm II"
+  },
+  {
+    "name": "Smoke Charm III"
+  },
+  {
+    "name": "Speed Heal Charm I"
+  },
+  {
+    "name": "Speed Heal Charm II"
+  },
+  {
+    "name": "Speed Heal Charm III"
+  },
+  {
+    "name": "Stealth Charm I"
+  },
+  {
+    "name": "Stealth Charm II"
+  },
+  {
+    "name": "Stealth Charm III"
+  },
+  {
+    "name": "Stun Charm I"
+  },
+  {
+    "name": "Stun Charm II"
+  },
+  {
+    "name": "Stun Charm III"
+  },
+  {
+    "name": "Surge Charm I"
+  },
+  {
+    "name": "Surge Charm II"
+  },
+  {
+    "name": "Surveyor's Charm"
+  },
+  {
+    "name": "Thunder Charm I"
+  },
+  {
+    "name": "Thunder Charm II"
+  },
+  {
+    "name": "Thunder Charm III"
+  },
+  {
+    "name": "Tracker Charm"
+  },
+  {
+    "name": "Tranq Charm I"
+  },
+  {
+    "name": "Tranq Charm II"
+  },
+  {
+    "name": "Tranq Charm III"
+  },
+  {
+    "name": "Tremor Charm I"
+  },
+  {
+    "name": "Tremor Charm II"
+  },
+  {
+    "name": "Trickshot Charm"
+  },
+  {
+    "name": "Trickshot Charm I"
+  },
+  {
+    "name": "Trickshot Charm II"
+  },
+  {
+    "name": "Unscathed Charm I"
+  },
+  {
+    "name": "Unscathed Charm II"
+  },
+  {
+    "name": "Venom Charm I"
+  },
+  {
+    "name": "Venom Charm II"
+  },
+  {
+    "name": "Venom Charm III"
+  },
+  {
+    "name": "Water Charm I"
+  },
+  {
+    "name": "Water Charm II"
+  },
+  {
+    "name": "Water Charm III"
+  },
+  {
+    "name": "Whetstone Charm I"
+  },
+  {
+    "name": "Whetstone Charm II"
+  },
+  {
+    "name": "Whetstone Charm III"
+  },
+  {
+    "name": "Windproof Charm I"
+  },
+  {
+    "name": "Windproof Charm II"
+  },
+  {
+    "name": "Windproof Charm III"
+  },
+  {
+    "name": "Wyrmsbane Charm I"
+  },
+  {
+    "name": "Wyrmsbane Charm II"
+  },
+  {
+    "name": "Wyrmsbane Charm III"
+  }
+]

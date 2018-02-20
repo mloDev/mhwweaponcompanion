@@ -1,0 +1,812 @@
+[
+  {
+    "name": "Alloy Coil Alpha",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Alloy Coil Beta",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Coil Alpha",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Coil Beta",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Baan Coil Alpha",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Baan Coil Beta",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Barroth Coil Alpha",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Barroth Coil Beta",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Bazel Coil Alpha",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bazel Coil Beta",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bone Coil Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Bone Coil Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Coil Alpha",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Coil Beta",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Elytra Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Elytra Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Chainmail Belt Alpha",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Chainmail Belt Beta",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Commission Belt Alpha",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Commission Belt Beta",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Damascus Coil Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Damascus Coil Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Death Stench Bowels Alpha",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Death Stench Bowels Beta",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Diablos Coil Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Coil Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Coil Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Coil Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Dober Coil Alpha",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dober Coil Beta",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dodogama Coil Alpha",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dodogama Coil Beta",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Girros Coil Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Girros Coil Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "High Metal Coil Alpha",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "High Metal Coil Beta",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Hornetaur Coil Alpha",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hornetaur Coil Beta",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hunter's Coil Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Hunter's Coil Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Coil Alpha",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Coil Beta",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Jagras Coil Alpha ",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jagras Coil Beta",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jyura Coil Beta",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Jyura Coil Alpha",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Coil Alpha",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Coil Beta",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "King Beetle Elytra Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "King Beetle Elytra Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Hoop Alpha",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Hoop Beta",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kulu Coil Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kulu Coil Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kushala Cocoon Alpha",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Kushala Cocoon Beta",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Lavasioth Coil Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Lavasioth Coil Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Leather Belt Alpha",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Leather Belt Beta",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Coil Alpha",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Coil Beta",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Coil Alpha",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Coil Beta",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Nergigante Coil Alpha",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Nergigante Coil Beta",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Odogaron Coil alpha",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Odogaron Coil Beta",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Pukei Coil Alpha",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Pukei Coil Beta",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Rath Heart Coil Alpha",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Heart Coil Beta",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Coil Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Coil Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rathalos Coil Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Rathalos Coil Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Kaiser Coil Alpha",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Kaiser Coil Beta",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Tzitzi Coil Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Tzitzi Coil Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Uragaan Coil Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Uragaan Coil Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Vaal Hazak Coil Alpha",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vaal Hazak Coil Beta",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vespoid Coil Alpha",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Vespoid Coil Beta",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Xeno'jiiva Spine Alpha",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Xeno'jiiva Spine Beta",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Zorah Spine Alpha",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Spine Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  }
+]

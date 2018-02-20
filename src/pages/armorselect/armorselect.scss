@@ -1,0 +1,9 @@
+page-armorselect {
+  ion-content {
+    background-color: color($colors, dark, base) !important;
+  }
+  ion-card {
+    background-color: color($colors, cardbackground, base) !important;
+    color: white !important;
+  }
+}

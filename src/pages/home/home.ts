@@ -1,27 +1,27 @@
 import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
-import {HttpClient} from "@angular/common/http";
-import {WeaponModel} from "../../components/weapon/model/weapon.model";
+import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import {LoadoutPage} from "../loadout/loadout";
+import {WeaponTypeSelectPage} from "../weapontypeselect/weapontypeselect";
 
+@IonicPage()
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
 })
 export class HomePage {
 
-  public weaponTree: WeaponModel[] = [];
-
-  constructor(public navCtrl: NavController, private http: HttpClient) {
-
+  constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
-  ngOnInit() {
-    this.http.get<WeaponModel[]>('assets/bow.json').subscribe(data => {
-      this.weaponTree = data;
-    });
+  gotoWeaponBrowser() {
+    this.navCtrl.push(WeaponTypeSelectPage);
   }
 
-  generateData() {
+  gotoNewLoadOut() {
+    this.navCtrl.push(LoadoutPage);
+  }
+
+  ionViewDidLoad() {
   }
 
 }

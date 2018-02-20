@@ -1,0 +1,15 @@
+<ion-card *ngFor="let armor of armors" (click)="selectArmor(armor)">
+  <ion-card-header>{{armor.name}}</ion-card-header>
+  <ion-card-content>
+    <ion-grid>
+      <ion-row>
+        <ion-col *ngIf="armor.defense" col-6>Defense: {{armor.defense}}</ion-col>
+        <ion-col *ngIf="armor.fire" col-6>Fire: {{armor.fire}}</ion-col>
+        <ion-col *ngIf="armor.thunder" col-6>Thunder: {{armor.thunder}}</ion-col>
+        <ion-col *ngIf="armor.ice" col-6>Ice: {{armor.ice}}</ion-col>
+        <ion-col *ngIf="armor.water" col-6>Water: {{armor.water}}</ion-col>
+        <ion-col *ngIf="armor.dragon" col-6>Dragon: {{armor.dragon}}</ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-card-content>
+</ion-card>

@@ -1,3 +1,8 @@
 page-home {
-
+  ion-content {
+    background-color: color($colors, dark, base) !important;
+  }
+  button {
+    border: 1px solid #000;
+  }
 }

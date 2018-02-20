@@ -1,0 +1,830 @@
+[
+  {
+    "name": "Alloy Mail Alpha",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Alloy Mail Beta",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Mail Alpha",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Mail Beta",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Baan Mail Alpha",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Baan Mail Beta",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Barnos Jacket Alpha",
+    "defense": 48,
+    "fire": 1,
+    "water": 1,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": -2
+  },
+  {
+    "name": "Barnos Jacket Beta",
+    "defense": 48,
+    "fire": 1,
+    "water": 1,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": -2
+  },
+  {
+    "name": "Barroth Mail Alpha",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Barroth Mail Beta",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Bazel Mail Alpha",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bazel Mail Beta",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bone Mail Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Bone Mail Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Suit Alpha",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Suit Beta",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Thorax Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Thorax Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Chainmail Armor Alpha",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Chainmail Armor Beta",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Commission Jacket Alpha",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Commission Jacket Beta",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Damascus Mail Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Damascus Mail Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Death Stench Muscle Alpha",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Death Stench Muscle Beta",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Diablos Mail Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Mail Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Mail Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Mail Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Dober Mail Alpha",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dober Mail Beta",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dodogama Mail Alpha",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dodogama Mail Beta",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Girros Mail Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Girros Mail Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "High Metal Mail Alpha",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "High Metal Mail Beta",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Hornetaur Mail Alpha",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hornetaur Mail Beta",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hunter's Mail Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Hunter's Mail Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Mail Alpha",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Mail Beta",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Jagras Mail Alpha ",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jagras Mail Beta",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jyura Mail Beta",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Jyura Mail Alpha",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Mail Alpha",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Mail Beta",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "King Beetle Thorax Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "King Beetle Thorax Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Jacket Alpha",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Jacket Beta",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kulu Mail Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kulu Mail Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kushala Cista Alpha",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Kushala Cista Beta",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Lavasioth Mail Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Lavasioth Mail Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Leather Mail Alpha",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Leather Mail Beta",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Mail Alpha",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Mail Beta",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Mail Alpha",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Mail Beta",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Nergigante Mail Alpha",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Nergigante Mail Beta",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Odogaron Mail Alpha",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Odogaron Mail Beta",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Pukei Mail Alpha",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Pukei Mail Beta",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Rath Heart Mail Alpha",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Heart Mail Beta",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Mail Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Mail Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rathalos Mail Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Rathalos Mail Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Kaiser Mail Alpha",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Kaiser Mail Beta",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Tzitzi Mail Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Tzitzi Mail Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Uragaan Mail Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Uragaan Mail Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Vaal Hazak Mail Alpha",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vaal Hazak Mail Beta",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vespoid Mail Alpha",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Vespoid Mail Beta",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Xeno'jiiva Hide Alpha",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Xeno'jiiva Hide Beta",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Zorah Hide Alpha",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Hide Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  }
+]

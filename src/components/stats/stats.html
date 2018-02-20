@@ -1,0 +1,17 @@
+<ion-card *ngIf="stats.attack >= 0">
+  <ion-card-header>Attack: {{stats.attack}}</ion-card-header>
+</ion-card>
+<ion-card *ngIf="stats.defense >= 0">
+  <ion-card-header>Defense: {{stats.defense}}</ion-card-header>
+</ion-card>
+<ion-card>
+  <ion-card-header>Element resistance</ion-card-header>
+  <ion-card-content>
+    <p>Fire: {{stats.fire}}</p>
+    <p>Water: {{stats.water}}</p>
+    <p>Thunder: {{stats.thunder}}</p>
+    <p>Ice: {{stats.ice}}</p>
+    <p>Dragon: {{stats.dragon}}</p>
+  </ion-card-content>
+</ion-card>
+

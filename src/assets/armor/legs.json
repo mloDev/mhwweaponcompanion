@@ -1,0 +1,830 @@
+[
+  {
+    "name": "Alloy Greaves Alpha",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Alloy Greaves Beta",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Greaves Alpha",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Greaves Beta",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Baan Greaves Alpha",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Baan Greaves Beta",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Barroth Greaves Alpha",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Barroth Greaves Beta",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Bazel Greaves Alpha",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bazel Greaves Beta",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bone Greaves Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Bone Greaves Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Boots Alpha",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Boots Beta",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Crura Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Crura Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Chainmail Trousers Alpha",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Chainmail Trousers Beta",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Commission Pants Alpha",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Commission Pants Beta",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Damascus Greaves Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Damascus Greaves Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Death Stench Heel Alpha",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Death Stench Heel Beta",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Diablos Greaves Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Greaves Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Greaves Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Greaves Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Dober Greaves Alpha",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dober Greaves Beta",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dodogama Greaves Alpha",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dodogama Greaves Beta",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Gajau Boots Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 5,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Gajau Boots Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 5,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Girros Greaves Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Girros Greaves Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "High Metal Greaves Alpha",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "High Metal Greaves Beta",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Hornetaur Greaves Alpha",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hornetaur Greaves Beta",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hunter's Greaves Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Hunter's Greaves Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Greaves Alpha",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Greaves Beta",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Jagras Greaves Alpha ",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jagras Greaves Beta",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jyura Greaves Beta",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Jyura Greaves Alpha",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Greaves Alpha",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Greaves Beta",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "King Beetle Crura Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "King Beetle Crura Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Leg Guards Alpha",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Leg Guards Beta",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kulu Greaves Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kulu Greaves Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kushala Crus Alpha",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Kushala Crus Beta",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Lavasioth Greaves Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Lavasioth Greaves Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Leather Trousers Alpha",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Leather Trousers Beta",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Greaves Alpha",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Greaves Beta",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Greaves Alpha",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Greaves Beta",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Nergigante Greaves Alpha",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Nergigante Greaves Beta",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Odogaron Greaves Alpha",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Odogaron Greaves Beta",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Pukei Greaves Alpha",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Pukei Greaves Beta",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Rath Heart Greaves Alpha",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Heart Greaves Beta",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Greaves Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Greaves Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rathalos Greaves Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Rathalos Greaves Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Kaiser Greaves Alpha",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Kaiser Greaves Beta",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Tzitzi Greaves Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Tzitzi Greaves Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Uragaan Greaves Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Uragaan Greaves Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Vaal Hazak Greaves Alpha",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vaal Hazak Greaves Beta",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vespoid Greaves Alpha",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Vespoid Greaves Beta",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Xeno'jiiva Spurs Alpha",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Xeno'jiiva Spurs Beta",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Zorah Spurs Alpha",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Spurs Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  }
+]

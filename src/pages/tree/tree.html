@@ -1,0 +1,11 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title *ngIf="weaponType">
+      {{weaponType.name}} tree
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding *ngFor="let subWeapontree of weaponTree" color="dark">
+  <weapontree *ngIf="subWeapontree" [weaponType]="weaponType" [weaponTree]="subWeapontree"></weapontree>
+</ion-content>

@@ -1,0 +1,409 @@
+[
+  {
+    "id": 1,
+    "value": "Iron Bow I",
+    "attack": 96,
+    "rare": 1,
+    "affinity": 0,
+    "slots": {
+      "slot1": 0,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "materials": [
+      {
+        "materialId": 1,
+        "count": 1
+      },
+      {
+        "materialId": 2,
+        "count": 200
+      }
+    ],
+    "buildPath": [],
+    "childrenIds": [
+      2
+    ]
+  },
+  {
+    "id": 2,
+    "value": "Iron Bow II",
+    "materials": [
+      {
+        "materialId": 1,
+        "count": 2
+      },
+      {
+        "materialId": 2,
+        "count": 200
+      }
+    ],
+    "attack": 108,
+    "rare": 1,
+    "slots": {
+      "slot1": 0,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "buildPath": [
+      1
+    ],
+    "parent": 1,
+    "childrenIds": [3, 11]
+  },
+  {
+    "id": 3,
+    "value": "Iron Bow III",
+    "materials": [
+      {
+        "materialId": 1,
+        "count": 5
+      },
+      {
+        "materialId": 3,
+        "count": 2
+      },
+      {
+        "materialId": 4,
+        "count": 2
+      },
+      {
+        "materialId": 2,
+        "count": 1000
+      }
+    ],
+    "attack": 120,
+    "rare": 2,
+    "parent": 2,
+    "childrenIds": [4]
+  },
+  {
+    "id": 4,
+    "value": "Steel Bow I",
+    "materials": [
+      {
+        "materialId": 5,
+        "count": 2
+      },
+      {
+        "materialId": 4,
+        "count": 5
+      },
+      {
+        "materialId": 6,
+        "count": 2
+      },
+      {
+        "materialId": 2,
+        "count": 2000
+      }
+    ],
+    "attack": 132,
+    "rare": 3,
+    "parent": 3,
+    "childrenIds": [5]
+  },
+  {
+    "id": 5,
+    "value": "Steel Bow II",
+    "materials": [
+      {
+        "materialId": 8,
+        "count": 2
+      },
+      {
+        "materialId": 5,
+        "count": 5
+      },
+      {
+        "materialId": 7,
+        "count": 2
+      },
+      {
+        "materialId": 4,
+        "count": 10
+      },
+      {
+        "materialId": 2,
+        "count": 4000
+      }
+    ],
+    "attack": 156,
+    "rare": 4,
+    "parent": 4,
+    "childrenIds": [6]
+  },
+  {
+    "id": 6,
+    "value": "Steel Bow III",
+    "materials": [
+      {
+        "materialId": 10,
+        "count": 8
+      },
+      {
+        "materialId": 5,
+        "count": 5
+      },
+      {
+        "materialId": 9,
+        "count": 2
+      },
+      {
+        "materialId": 2,
+        "count": 6000
+      }
+    ],
+    "attack": 168,
+    "rare": 5,
+    "parent": 5,
+    "childrenIds": [7]
+  },
+  {
+    "id": 7,
+    "value": "Alloy Bow I",
+    "materials": [
+      {
+        "materialId": 11,
+        "count": 8
+      },
+      {
+        "materialId": 10,
+        "count": 5
+      },
+      {
+        "materialId": 5,
+        "count": 10
+      },
+      {
+        "materialId": 9,
+        "count": 3
+      },
+      {
+        "materialId": 2,
+        "count": 16000
+      }
+    ],
+    "attack": 180,
+    "rare": 6,
+    "parent": 6,
+    "childrenIds": [8, 9]
+  },
+  {
+    "id": 8,
+    "value": "Alloy Bow II",
+    "materials": [
+      {
+        "materialId": 12,
+        "count": 2
+      },
+      {
+        "materialId": 11,
+        "count": 13
+      },
+      {
+        "materialId": 10,
+        "count": 20
+      },
+      {
+        "materialId": 13,
+        "count": 1
+      },
+      {
+        "materialId": 2,
+        "count": 32000
+      }
+    ],
+    "attack": 204,
+    "rare": 6,
+    "parent": 7,
+    "childrenIds": []
+  },
+  {
+    "id": 9,
+    "value": "Nergal Whisper",
+    "materials": [
+      {
+        "materialId": 14,
+        "count": 3
+      },
+      {
+        "materialId": 15,
+        "count": 4
+      },
+      {
+        "materialId": 16,
+        "count": 2
+      },
+      {
+        "materialId": 17,
+        "count": 2
+      },
+      {
+        "materialId": 2,
+        "count": 32000
+      }
+    ],
+    "attack": 228,
+    "rare": 7,
+    "slots": {
+      "slot1": 1,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "element": {
+      "elementType": "Dragon",
+      "dmg": 120
+    },
+    "parent": 7,
+    "childrenIds": [10]
+  },
+  {
+    "id": 10,
+    "value": "Doom`s Shaft",
+    "materials": [
+      {
+        "materialId": 18,
+        "count": 2
+      },
+      {
+        "materialId": 19,
+        "count": 5
+      },
+      {
+        "materialId": 14,
+        "count": 5
+      },
+      {
+        "materialId": 20,
+        "count": 1
+      },
+      {
+        "materialId": 2,
+        "count": 56000
+      }
+    ],
+    "attack": 240,
+    "rare": 8,
+    "slots": {
+      "slot1": 1,
+      "slot2": 0,
+      "slot3": 0
+    },
+    "element": {
+      "elementType": "Dragon",
+      "dmg": 150
+    },
+    "seal": "High",
+    "parent": 9,
+    "childrenIds": []
+  },
+  {
+    "id": 11,
+    "value": "Kulu Arrow I",
+    "parent": 2,
+    "childrenIds": [12, 13, 19]
+  },
+  {
+    "id": 12,
+    "value": "Kulu Arrow II",
+    "parent": 11,
+    "childrenIds": []
+  },
+  {
+    "id": 13,
+    "value": "Princess Arrow I",
+    "parent": 11,
+    "childrenIds": [14, 16]
+  },
+  {
+    "id": 14,
+    "value": "Princess Arrow II",
+    "parent": 13,
+    "childrenIds": [15]
+  },
+  {
+    "id": 15,
+    "value": "Princess Arrow III",
+    "parent": 14,
+    "childrenIds": []
+  },
+  {
+    "id": 16,
+    "value": "Rathslinger I",
+    "parent": 13,
+    "childrenIds": [17]
+  },
+  {
+    "id": 17,
+    "value": "Rathslinger II",
+    "parent": 16,
+    "childrenIds": [18]
+  },
+  {
+    "id": 18,
+    "value": "Rathslinger III",
+    "parent": 17,
+    "childrenIds": []
+  },
+  {
+    "id": 19,
+    "value": "Aqua Arrow I",
+    "parent": 2,
+    "childrenIds": [20, 22]
+  },
+  {
+    "id": 20,
+    "value": "Aqua Arrow II",
+    "parent": 19,
+    "childrenIds": [21]
+  },
+  {
+    "id": 21,
+    "value": "Aqua Arrow III",
+    "parent": 20,
+    "childrenIds": []
+  },
+  {
+    "id": 22,
+    "value": "Water Shot I",
+    "parent": 19,
+    "childrenIds": [24, 26]
+  },
+  {
+    "id": 24,
+    "value": "Water Shot II",
+    "parent": 22,
+    "childrenIds": [25]
+  },
+  {
+    "id": 25,
+    "value": "Water Shot III",
+    "parent": 24,
+    "childrenIds": []
+  },
+  {
+    "id": 26,
+    "value": "Glacial Arrow I",
+    "parent": 22,
+    "childrenIds": [27, 28]
+  },
+  {
+    "id": 27,
+    "value": "Glacial Arrow II",
+    "parent": 26,
+    "childrenIds": []
+  },
+  {
+    "id": 28,
+    "value": "Snowfletcher",
+    "parent": 26,
+    "childrenIds": [29]
+  },
+  {
+    "id": 29,
+    "value": "Legia Snowfletcher",
+    "parent": 28,
+    "childrenIds": []
+  }
+]

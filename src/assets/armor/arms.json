@@ -1,0 +1,839 @@
+[
+  {
+    "name": "Alloy Vambraces Alpha",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Alloy Vambraces Beta",
+    "defense": 36,
+    "fire": -2,
+    "water": 0,
+    "thunder": -2,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Vambraces Alpha",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Anja Vambraces Beta",
+    "defense": 42,
+    "fire": 3,
+    "water": -3,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Baan Vambraces Alpha",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Baan Vambraces Beta",
+    "defense": 46,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": -1,
+    "dragon": -2
+  },
+  {
+    "name": "Barroth Vambraces Alpha",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Barroth Vambraces Beta",
+    "defense": 42,
+    "fire": -3,
+    "water": -1,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Bazel Vambraces Alpha",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bazel Vambraces Beta",
+    "defense": 58,
+    "fire": 3,
+    "water": 1,
+    "thunder": -4,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Bone Vambraces Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Bone Vambraces Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Vambraces Alpha",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Brigade Vambraces Beta",
+    "defense": 52,
+    "fire": 1,
+    "water": 0,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Brachia Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Butterfly Brachia Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Chainmail Gloves Alpha",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Chainmail Gloves Beta",
+    "defense": 32,
+    "fire": 0,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Commission Vambraces Alpha",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Commission Vambraces Beta",
+    "defense": 70,
+    "fire": 2,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": 2
+  },
+  {
+    "name": "Damascus Vambraces Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Damascus Vambraces Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Death Stench Grip Alpha",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Death Stench Grip Beta",
+    "defense": 62,
+    "fire": 3,
+    "water": 2,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": -4
+  },
+  {
+    "name": "Diablos Vambraces Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Vambraces Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": -2,
+    "thunder": 0,
+    "ice": -3,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Vambraces Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Diablos Nero Greaves Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 0,
+    "ice": -4,
+    "dragon": 2
+  },
+  {
+    "name": "Dober Vambraces Alpha",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dober Vambraces Beta",
+    "defense": 60,
+    "fire": -2,
+    "water": 0,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 4
+  },
+  {
+    "name": "Dodogama Vambraces Alpha",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Dodogama Vambraces Beta",
+    "defense": 48,
+    "fire": 2,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Girros Vambraces Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Girros Vambraces Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "High Metal Braces Alpha",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "High Metal Braces Beta",
+    "defense": 50,
+    "fire": 0,
+    "water": -1,
+    "thunder": -2,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Hornetaur Vambraces Alpha",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hornetaur Vambraces Beta",
+    "defense": 38,
+    "fire": -1,
+    "water": -1,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Hunter's Vambraces Beta",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Hunter's Vambraces Alpha",
+    "defense": 36,
+    "fire": 2,
+    "water": 2,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Vambraces Alpha",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Ingot Vambraces Beta",
+    "defense": 50,
+    "fire": -2,
+    "water": 0,
+    "thunder": 3,
+    "ice": -1,
+    "dragon": 0
+  },
+  {
+    "name": "Jagras Vambraces Alpha ",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jagras Vambraces Beta",
+    "defense": 40,
+    "fire": -2,
+    "water": 2,
+    "thunder": -1,
+    "ice": -1,
+    "dragon": 1
+  },
+  {
+    "name": "Jyura Vambraces Beta",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Jyura Vambraces Alpha",
+    "defense": 44,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Vambraces Alpha",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kadachi Vambraces Beta",
+    "defense": 44,
+    "fire": 0,
+    "water": -3,
+    "thunder": 3,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kestodon Guards Alpha",
+    "defense": 40,
+    "fire": 4,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Kestodon Guards Beta",
+    "defense": 40,
+    "fire": 4,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "King Beetle Brachia Alpha",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "King Beetle Brachia Beta",
+    "defense": 42,
+    "fire": -1,
+    "water": -1,
+    "thunder": 2,
+    "ice": 0,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Longarms Alpha",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kirin Longarms Beta",
+    "defense": 64,
+    "fire": -3,
+    "water": -2,
+    "thunder": 4,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Kulu Vambraces Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kulu Vambraces Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": -3,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Kushala Grip Alpha",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Kushala Grip Beta",
+    "defense": 64,
+    "fire": 0,
+    "water": 2,
+    "thunder": -3,
+    "ice": 4,
+    "dragon": -2
+  },
+  {
+    "name": "Lavasioth Vambraces Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Lavasioth Vambraces Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": 2
+  },
+  {
+    "name": "Leather Gloves Alpha",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Leather Gloves Beta",
+    "defense": 32,
+    "fire": 2,
+    "water": 0,
+    "thunder": 0,
+    "ice": 0,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Vambraces Alpha",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Legiana Vambraces Beta",
+    "defense": 54,
+    "fire": -1,
+    "water": 2,
+    "thunder": -3,
+    "ice": 3,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Vambraces Alpha",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Lumu Vambraces Beta",
+    "defense": 44,
+    "fire": -3,
+    "water": 2,
+    "thunder": 0,
+    "ice": 1,
+    "dragon": 0
+  },
+  {
+    "name": "Nergigante Vambraces Alpha",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Nergigante Vambraces Beta",
+    "defense": 64,
+    "fire": 1,
+    "water": 1,
+    "thunder": -3,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Odogaron Vambraces Alpha",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Odogaron Vambraces Beta",
+    "defense": 54,
+    "fire": 2,
+    "water": 2,
+    "thunder": -2,
+    "ice": -3,
+    "dragon": 0
+  },
+  {
+    "name": "Pukei Vambraces Alpha",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Pukei Vambraces Beta",
+    "defense": 42,
+    "fire": 0,
+    "water": 3,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": 1
+  },
+  {
+    "name": "Rath Heart Braces Alpha",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Heart Braces Beta",
+    "defense": 52,
+    "fire": 3,
+    "water": 0,
+    "thunder": -3,
+    "ice": 0,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Braces Alpha",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rath Soul Braces Beta",
+    "defense": 56,
+    "fire": 3,
+    "water": 2,
+    "thunder": 2,
+    "ice": -3,
+    "dragon": -4
+  },
+  {
+    "name": "Rathalos Vambraces Alpha",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Rathalos Vambraces Beta",
+    "defense": 54,
+    "fire": 3,
+    "water": 1,
+    "thunder": -2,
+    "ice": 1,
+    "dragon": -3
+  },
+  {
+    "name": "Kaiser Vambraces Alpha",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Kaiser Vambraces Beta",
+    "defense": 64,
+    "fire": 3,
+    "water": -3,
+    "thunder": 1,
+    "ice": -3,
+    "dragon": 1
+  },
+  {
+    "name": "Tzitzi Vambraces Alpha",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Tzitzi Vambraces Beta",
+    "defense": 40,
+    "fire": 0,
+    "water": 0,
+    "thunder": -3,
+    "ice": -2,
+    "dragon": 0
+  },
+  {
+    "name": "Uragaan Vambraces Alpha",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Uragaan Vambraces Beta",
+    "defense": 60,
+    "fire": 4,
+    "water": -3,
+    "thunder": 1,
+    "ice": -2,
+    "dragon": -2
+  },
+  {
+    "name": "Vaal Hazak Braces Alpha",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vaal Hazak Braces Beta",
+    "defense": 64,
+    "fire": -4,
+    "water": 4,
+    "thunder": 1,
+    "ice": -1,
+    "dragon": -3
+  },
+  {
+    "name": "Vespoid Vambraces Alpha",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Vespoid Vambraces Beta",
+    "defense": 38,
+    "fire": -2,
+    "water": 1,
+    "thunder": 1,
+    "ice": 1,
+    "dragon": 2
+  },
+  {
+    "name": "Xeno'jiiva Claws Alpha",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Xeno'jiiva Claws Beta",
+    "defense": 72,
+    "fire": -3,
+    "water": 2,
+    "thunder": 2,
+    "ice": 2,
+    "dragon": -4
+  },
+  {
+    "name": "Zorah Claws Alpha",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Claws Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  },
+  {
+    "name": "Zorah Hide Beta",
+    "defense": 44,
+    "fire": 4,
+    "water": -3,
+    "thunder": -1,
+    "ice": -2,
+    "dragon": -3
+  }
+]

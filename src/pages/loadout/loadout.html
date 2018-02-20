@@ -1,0 +1,41 @@
+
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>loadout</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div [ngSwitch]="viewState">
+    <div *ngSwitchCase="'loadout'">
+      <loadout [(loadout)]="loadout"></loadout>
+    </div>
+
+    <div *ngSwitchCase="'stats'">
+      <stats [stats]="stats"></stats>
+    </div>
+
+    <div *ngSwitchCase="'skills'">
+      <skills [skills]="skills"></skills>
+    </div>
+  </div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="dark">
+    <ion-segment [(ngModel)]="viewState">
+      <ion-segment-button value="loadout">
+        Loadout
+      </ion-segment-button>
+      <ion-segment-button value="stats" (click)="calcStats()">
+        Stats
+      </ion-segment-button>
+      <ion-segment-button value="skills" (click)="calcSkills()">
+        Skills
+      </ion-segment-button>
+    </ion-segment>
+  </ion-toolbar>
+</ion-footer>
